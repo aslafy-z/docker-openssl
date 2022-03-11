@@ -23,5 +23,6 @@
   "labels": [
     "dependencies",
     "automerge"
-  ]
+  ],
+  "renovateFork": true
 }
