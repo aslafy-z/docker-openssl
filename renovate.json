@@ -13,7 +13,16 @@
       "versioningTemplate": "loose"
     }
   ],
-  "separateMajorMinor": false,
+	"packageRules": [
+		{
+			"packagePatterns": ["*"],
+			"enabled": false
+		},
+		{
+			"packageNames": ["ubuntu_20_04/openssl"],
+			"enabled": true
+		}
+	],
   "extends": [
     "config:base",
     ":semanticCommits",
