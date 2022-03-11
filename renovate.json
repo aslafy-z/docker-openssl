@@ -13,25 +13,25 @@
       "versioningTemplate": "loose"
     }
   ],
-	"packageRules": [
-		{
-			"packagePatterns": ["*"],
-			"enabled": false
-		},
-		{
-			"packageNames": ["ubuntu_20_04/openssl"],
-			"enabled": true
-		}
-	],
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "enabled": false
+    },
+    {
+      "packageNames": ["ubuntu_20_04/openssl"],
+      "enabled": true
+    }
+  ],
   "extends": [
     "config:base",
     ":semanticCommits",
     ":semanticCommitTypeAll(deps)",
-    ":semanticCommitScopeDisabled"
+    ":semanticCommitScopeDisabled",
+    ":disableDependencyDashboard"
   ],
   "labels": [
     "dependencies",
     "automerge"
-  ],
-  "includeForks": true
+  ]
 }
