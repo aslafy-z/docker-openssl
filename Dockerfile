@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ARG OPENSSL_VERSION=1.1.1f-1ubuntu2.15
+ARG OPENSSL_VERSION=1.1.1f-1ubuntu2.16
 
 ARG DEBIAN_FRONTEND=noninteractive
 
