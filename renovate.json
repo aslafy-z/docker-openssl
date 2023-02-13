@@ -27,8 +27,7 @@
     "config:base",
     ":semanticCommits",
     ":semanticCommitTypeAll(deps)",
-    ":semanticCommitScopeDisabled",
-    ":disableDependencyDashboard"
+    ":semanticCommitScopeDisabled"
   ],
   "labels": [
     "dependencies",
